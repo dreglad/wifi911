@@ -1,0 +1,24 @@
+{
+  "name": "wifi911",
+  "version": "1.0.0",
+  "description": "WiFi volunteer reaction App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "wifi",
+    "911",
+    "open",
+    "emergency",
+    "emergencia",
+    "sismo"
+  ],
+  "author": "Volunteers",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "~1.6.2"
+  }
+}

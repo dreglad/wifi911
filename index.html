@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>wifi911 Prueba de concepto</title>
+  </head>
+  <body>
+    <h1>wifi911</h1>
+    <ul>
+      <li id="ssid_name">Obteniendo datos de tu red WiFi...</li>
+      <li id="router_ip">Obteniendo IP de módem o ruteador...</li>
+      <li id="admin_url">Deduciendo URL de interfaz de administración del router...</li>
+      <li id="ssid_key">Solicitando permiso para acceder a contraseña...</li>
+    </ul>
+    <div id="admin"></div>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
